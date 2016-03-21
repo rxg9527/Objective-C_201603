@@ -36,13 +36,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 
-    /*+(void)load和+(void)initialize可当做普通类方法(Class Method)被调用*/
-    /* 输出结果
-     * 前面三个结果跟之前一样，不过之后ChildClass的+(void)initialize也被自动执行调用，并且我们可以在其中安全创建出InsideInitialize类并使用它，
-     * 而InsideInitialize因为调用alloc方法是第一次使用类方法， 所以激发了InsideInitialize的+(void)initialize。
-     * 另一个方面，ChildClass继承下了+(void)load而且可以被安全地当做普通类方法(Class Method)被使用。
-     * 这也就是load和initialize被调用一次是相对runtime而言（比如SuperClass的initialize不会因为自身load方法调用一次，又因为子类调用了load又执行一次），我们依然可以直接去反复调用这些方法*/
-    [ChildClass load];
+//    /*+(void)load和+(void)initialize可当做普通类方法(Class Method)被调用*/
+//    /* 输出结果
+//     * 前面三个结果跟之前一样，不过之后ChildClass的+(void)initialize也被自动执行调用，并且我们可以在其中安全创建出InsideInitialize类并使用它，
+//     * 而InsideInitialize因为调用alloc方法是第一次使用类方法， 所以激发了InsideInitialize的+(void)initialize。
+//     * 另一个方面，ChildClass继承下了+(void)load而且可以被安全地当做普通类方法(Class Method)被使用。
+//     * 这也就是load和initialize被调用一次是相对runtime而言（比如SuperClass的initialize不会因为自身load方法调用一次，又因为子类调用了load又执行一次），我们依然可以直接去反复调用这些方法*/
+//    [ChildClass load];
 }
 
 - (void)didReceiveMemoryWarning {

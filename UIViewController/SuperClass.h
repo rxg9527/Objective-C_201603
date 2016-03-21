@@ -12,8 +12,3 @@
 @interface ChildClass : SuperClass
 @end
 
-@interface InsideInitialize : NSObject
-
-- (void)objectMethod;
-@end
-
