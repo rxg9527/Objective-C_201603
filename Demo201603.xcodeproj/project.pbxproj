@@ -23,6 +23,7 @@
 		0C3B23481C994B9800A16096 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B23471C994B9800A16096 /* AppDelegate.m */; };
 		0C3B234B1C994B9800A16096 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B234A1C994B9800A16096 /* ViewController.m */; };
 		0C3B23501C994B9800A16096 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C3B234F1C994B9800A16096 /* Assets.xcassets */; };
+		2A38EF4C92C63CE1F5A24724 /* SuperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A38E109BF76E96A607B94B0 /* SuperClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,8 @@
 		0C3B234A1C994B9800A16096 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0C3B234F1C994B9800A16096 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C3B23541C994B9800A16096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A38E109BF76E96A607B94B0 /* SuperClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperClass.m; sourceTree = "<group>"; };
+		2A38E1D4E7118ED8E5EBDE8B /* SuperClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				0C1B08661C9FE36A00EC0351 /* ViewController.h */,
 				0C1B08671C9FE36A00EC0351 /* ViewController.m */,
 				0C1B08601C9FE36A00EC0351 /* Supporting Files */,
+				2A38E109BF76E96A607B94B0 /* SuperClass.m */,
+				2A38E1D4E7118ED8E5EBDE8B /* SuperClass.h */,
 			);
 			path = UIViewController;
 			sourceTree = "<group>";
@@ -304,6 +309,7 @@
 				0C1B08681C9FE36A00EC0351 /* ViewController.m in Sources */,
 				0C1B08651C9FE36A00EC0351 /* AppDelegate.m in Sources */,
 				0C1B08621C9FE36A00EC0351 /* main.m in Sources */,
+				2A38EF4C92C63CE1F5A24724 /* SuperClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
