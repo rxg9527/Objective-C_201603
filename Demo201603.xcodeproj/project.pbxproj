@@ -13,6 +13,12 @@
 		0C1B086B1C9FE36A00EC0351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C1B08691C9FE36A00EC0351 /* Main.storyboard */; };
 		0C1B086D1C9FE36A00EC0351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C1B086C1C9FE36A00EC0351 /* Assets.xcassets */; };
 		0C1B08701C9FE36A00EC0351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C1B086E1C9FE36A00EC0351 /* LaunchScreen.storyboard */; };
+		0C1B087D1CA01D9C00EC0351 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B087C1CA01D9C00EC0351 /* main.m */; };
+		0C1B08801CA01D9C00EC0351 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B087F1CA01D9C00EC0351 /* AppDelegate.m */; };
+		0C1B08831CA01D9C00EC0351 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B08821CA01D9C00EC0351 /* ViewController.m */; };
+		0C1B08861CA01D9C00EC0351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C1B08841CA01D9C00EC0351 /* Main.storyboard */; };
+		0C1B08881CA01D9C00EC0351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C1B08871CA01D9C00EC0351 /* Assets.xcassets */; };
+		0C1B088B1CA01D9C00EC0351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C1B08891CA01D9C00EC0351 /* LaunchScreen.storyboard */; };
 		0C3B23281C994AC700A16096 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B23271C994AC700A16096 /* main.m */; };
 		0C3B232B1C994AC700A16096 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B232A1C994AC700A16096 /* AppDelegate.m */; };
 		0C3B232E1C994AC700A16096 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B232D1C994AC700A16096 /* ViewController.m */; };
@@ -37,6 +43,16 @@
 		0C1B086C1C9FE36A00EC0351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C1B086F1C9FE36A00EC0351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C1B08711C9FE36A00EC0351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C1B08791CA01D9B00EC0351 /* UIView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C1B087C1CA01D9C00EC0351 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C1B087E1CA01D9C00EC0351 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C1B087F1CA01D9C00EC0351 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C1B08811CA01D9C00EC0351 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C1B08821CA01D9C00EC0351 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C1B08851CA01D9C00EC0351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C1B08871CA01D9C00EC0351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C1B088A1CA01D9C00EC0351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C1B088C1CA01D9C00EC0351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C3B23231C994AC700A16096 /* Demo201603.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo201603.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C3B23271C994AC700A16096 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C3B23291C994AC700A16096 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +77,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		0C1B085B1C9FE36A00EC0351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1B08761CA01D9B00EC0351 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -110,12 +133,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0C1B087A1CA01D9C00EC0351 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				0C1B08811CA01D9C00EC0351 /* ViewController.h */,
+				0C1B08821CA01D9C00EC0351 /* ViewController.m */,
+				0C1B087B1CA01D9C00EC0351 /* Supporting Files */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		0C1B087B1CA01D9C00EC0351 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C1B087E1CA01D9C00EC0351 /* AppDelegate.h */,
+				0C1B087F1CA01D9C00EC0351 /* AppDelegate.m */,
+				0C1B08841CA01D9C00EC0351 /* Main.storyboard */,
+				0C1B08871CA01D9C00EC0351 /* Assets.xcassets */,
+				0C1B08891CA01D9C00EC0351 /* LaunchScreen.storyboard */,
+				0C1B088C1CA01D9C00EC0351 /* Info.plist */,
+				0C1B087C1CA01D9C00EC0351 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0C3B231A1C994AC700A16096 = {
 			isa = PBXGroup;
 			children = (
 				0C3B23251C994AC700A16096 /* Demo201603 */,
 				0C3B23421C994B9800A16096 /* NSDate_Week&Lunar */,
 				0C1B085F1C9FE36A00EC0351 /* UIViewController */,
+				0C1B087A1CA01D9C00EC0351 /* UIView */,
 				0C3B23241C994AC700A16096 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,6 +174,7 @@
 				0C3B23231C994AC700A16096 /* Demo201603.app */,
 				0C3B23411C994B9800A16096 /* NSDate_Week&Lunar.app */,
 				0C1B085E1C9FE36A00EC0351 /* UIViewController.app */,
+				0C1B08791CA01D9B00EC0351 /* UIView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,6 +245,23 @@
 			productReference = 0C1B085E1C9FE36A00EC0351 /* UIViewController.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0C1B08781CA01D9B00EC0351 /* UIView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C1B088F1CA01D9C00EC0351 /* Build configuration list for PBXNativeTarget "UIView" */;
+			buildPhases = (
+				0C1B08751CA01D9B00EC0351 /* Sources */,
+				0C1B08761CA01D9B00EC0351 /* Frameworks */,
+				0C1B08771CA01D9B00EC0351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIView;
+			productName = UIView;
+			productReference = 0C1B08791CA01D9B00EC0351 /* UIView.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0C3B23221C994AC700A16096 /* Demo201603 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C3B233A1C994AC700A16096 /* Build configuration list for PBXNativeTarget "Demo201603" */;
@@ -242,6 +308,9 @@
 					0C1B085D1C9FE36A00EC0351 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					0C1B08781CA01D9B00EC0351 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					0C3B23221C994AC700A16096 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -266,6 +335,7 @@
 				0C3B23221C994AC700A16096 /* Demo201603 */,
 				0C3B23401C994B9800A16096 /* NSDate_Week&Lunar */,
 				0C1B085D1C9FE36A00EC0351 /* UIViewController */,
+				0C1B08781CA01D9B00EC0351 /* UIView */,
 			);
 		};
 /* End PBXProject section */
@@ -278,6 +348,16 @@
 				0C1B08701C9FE36A00EC0351 /* LaunchScreen.storyboard in Resources */,
 				0C1B086D1C9FE36A00EC0351 /* Assets.xcassets in Resources */,
 				0C1B086B1C9FE36A00EC0351 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1B08771CA01D9B00EC0351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1B088B1CA01D9C00EC0351 /* LaunchScreen.storyboard in Resources */,
+				0C1B08881CA01D9C00EC0351 /* Assets.xcassets in Resources */,
+				0C1B08861CA01D9C00EC0351 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +390,16 @@
 				0C1B08651C9FE36A00EC0351 /* AppDelegate.m in Sources */,
 				0C1B08621C9FE36A00EC0351 /* main.m in Sources */,
 				2A38EF4C92C63CE1F5A24724 /* SuperClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1B08751CA01D9B00EC0351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1B08831CA01D9C00EC0351 /* ViewController.m in Sources */,
+				0C1B08801CA01D9C00EC0351 /* AppDelegate.m in Sources */,
+				0C1B087D1CA01D9C00EC0351 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +442,22 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		0C1B08841CA01D9C00EC0351 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C1B08851CA01D9C00EC0351 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C1B08891CA01D9C00EC0351 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C1B088A1CA01D9C00EC0351 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		0C3B232F1C994AC700A16096 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -389,6 +495,28 @@
 				INFOPLIST_FILE = UIViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yuen.UIViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0C1B088D1CA01D9C00EC0351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yuen.UIView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C1B088E1CA01D9C00EC0351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yuen.UIView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -529,6 +657,15 @@
 			buildConfigurations = (
 				0C1B08721C9FE36A00EC0351 /* Debug */,
 				0C1B08731C9FE36A00EC0351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C1B088F1CA01D9C00EC0351 /* Build configuration list for PBXNativeTarget "UIView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1B088D1CA01D9C00EC0351 /* Debug */,
+				0C1B088E1CA01D9C00EC0351 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

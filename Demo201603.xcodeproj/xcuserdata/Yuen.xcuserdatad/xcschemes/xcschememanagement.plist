@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>UIView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>UIViewController.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>0C1B085D1C9FE36A00EC0351</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0C1B08781CA01D9B00EC0351</key>
 		<dict>
 			<key>primary</key>
 			<true/>
