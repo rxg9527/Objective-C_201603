@@ -12,3 +12,7 @@
 @interface ChildClass : SuperClass
 @end
 
+/******* Interface *******/
+@interface MainClass : NSObject
+@end
+

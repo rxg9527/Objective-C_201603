@@ -37,3 +37,47 @@
 
 @end
 
+/**
+ *  2016-03-21 17:21:10.695 UIViewController[12671:447686] MainClass +[MainClass(OtherCategory) initialize]
+ *  2016-03-21 17:21:10.695 UIViewController[12671:447686] MainClass +[MainClass load]
+ *  2016-03-21 17:21:10.695 UIViewController[12671:447686] MainClass +[MainClass(Category) load]
+ *  2016-03-21 17:21:10.695 UIViewController[12671:447686] MainClass +[MainClass(OtherCategory) load]
+ *  只有最后一个类别(Category)的+(void)initialize执行，其他两个都被隐藏。
+ *  而对于+(void)load，三个都执行.
+ *  Apple的文档中介绍顺序一样：先执行类自身的实现，再执行类别(Category)中的实现。
+ */
+@implementation MainClass (Category)
+
++ (void)load {
+    NSLog(@"%@ %s", [self class], __FUNCTION__);
+}
+
++ (void)initialize {
+    NSLog(@"%@ %s", [self class], __FUNCTION__);
+}
+
+@end
+
+@implementation MainClass (OtherCategory)
+
++ (void)load {
+    NSLog(@"%@ %s", [self class], __FUNCTION__);
+}
+
++ (void)initialize {
+    NSLog(@"%@ %s", [self class], __FUNCTION__);
+}
+
+@end
+
+@implementation MainClass
+
++ (void)load {
+    NSLog(@"%@ %s", [self class], __FUNCTION__);
+}
+
++ (void)initialize {
+    NSLog(@"%@ %s", [self class], __FUNCTION__);
+}
+
+@end
