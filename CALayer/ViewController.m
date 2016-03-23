@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.layer.backgroundColor = [UIColor orangeColor].CGColor;
+    self.view.layer.cornerRadius = 20.0;
 }
 
 - (void)didReceiveMemoryWarning {
