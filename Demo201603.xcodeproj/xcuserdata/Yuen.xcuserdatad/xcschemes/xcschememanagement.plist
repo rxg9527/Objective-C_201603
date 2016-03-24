@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>05_UIImageView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>CALayer.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -53,6 +58,11 @@
 			<true/>
 		</dict>
 		<key>0C39F3F31CA2EEC400395A96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0C39F40E1CA41FD000395A96</key>
 		<dict>
 			<key>primary</key>
 			<true/>
