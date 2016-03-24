@@ -44,6 +44,11 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>12_UIDevice.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 		<key>CALayer.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -123,6 +128,11 @@
 			<true/>
 		</dict>
 		<key>0C39F4C01CA42C2100395A96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0C39F4DB1CA42CD900395A96</key>
 		<dict>
 			<key>primary</key>
 			<true/>
