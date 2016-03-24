@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "XGLabel.h"
 
 @interface ViewController ()
 
@@ -19,7 +20,22 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 20, 75, 40)];   //声明UIlbel并指定其位置和长宽
+    UILabel *label1 = [[UILabel alloc] initWithFrame:CGRectMake(0, 20, 75, 40)];   //声明UIlbel并指定其位置和长宽
+    [self.view addSubview:label1];
+    
+    label1.backgroundColor = [UIColor clearColor];   //设置label的背景色，这里设置为透明色。
+    label1.font = [UIFont fontWithName:@"Helvetica-Bold" size:13];   //设置label的字体和字体大小。
+    label1.text = @"helloworldhelloworldhelloworld";   //设置label所显示的文本
+    label1.textColor = [UIColor blueColor];    //设置文本的颜色
+    label1.shadowColor = [UIColor colorWithWhite:0.1f alpha:0.8f];    //设置文本的阴影色彩和透明度。
+    label1.shadowOffset = CGSizeMake(2.0f, 2.0f);     //设置阴影的倾斜角度。
+    label1.textAlignment = NSTextAlignmentCenter;     //设置文本在label中显示的位置，这里为居中。
+    label1.numberOfLines = 0;    // 指定label的行数
+    
+    label1.lineBreakMode = NSLineBreakByWordWrapping;     //指定换行模式
+    label1.transform = CGAffineTransformMakeRotation(0.1);     //设置label的旋转角度
+    
+    XGLabel *label = [[XGLabel alloc] initWithFrame:CGRectMake(0, 60, 75, 40)];   //声明UIlbel并指定其位置和长宽
     [self.view addSubview:label];
     
     label.backgroundColor = [UIColor clearColor];   //设置label的背景色，这里设置为透明色。
@@ -32,7 +48,8 @@
     label.numberOfLines = 0;    // 指定label的行数
     
     label.lineBreakMode = NSLineBreakByWordWrapping;     //指定换行模式
-    label.transform = CGAffineTransformMakeRotation(0.1);     //设置label的旋转角度
+    label.transform = CGAffineTransformMakeRotation(-0.1);     //设置label的旋转角度
+
 }
 
 - (void)didReceiveMemoryWarning {
