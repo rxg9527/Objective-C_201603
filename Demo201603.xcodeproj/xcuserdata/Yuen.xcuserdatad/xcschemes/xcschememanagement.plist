@@ -19,6 +19,31 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>07_UIButton.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>08_UITextField.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>09_UIScrollView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>10_UITableView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>11_UICollectionView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>CALayer.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -73,6 +98,31 @@
 			<true/>
 		</dict>
 		<key>0C39F4361CA4276000395A96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0C39F4541CA42B2900395A96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0C39F46F1CA42B3D00395A96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0C39F48A1CA42B5B00395A96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0C39F4A51CA42C1200395A96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0C39F4C01CA42C2100395A96</key>
 		<dict>
 			<key>primary</key>
 			<true/>
