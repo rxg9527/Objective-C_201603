@@ -13,6 +13,7 @@
 		0C021A721CA3B0B100545E2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C021A701CA3B0B100545E2C /* Main.storyboard */; };
 		0C021A741CA3B0B100545E2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C021A731CA3B0B100545E2C /* Assets.xcassets */; };
 		0C021A771CA3B0B100545E2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C021A751CA3B0B100545E2C /* LaunchScreen.storyboard */; };
+		0C021A7E1CA3B91100545E2C /* PasswordWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C021A7D1CA3B91100545E2C /* PasswordWindow.m */; };
 		0C1B08621C9FE36A00EC0351 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B08611C9FE36A00EC0351 /* main.m */; };
 		0C1B08651C9FE36A00EC0351 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B08641C9FE36A00EC0351 /* AppDelegate.m */; };
 		0C1B08681C9FE36A00EC0351 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B08671C9FE36A00EC0351 /* ViewController.m */; };
@@ -55,6 +56,8 @@
 		0C021A731CA3B0B100545E2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C021A761CA3B0B100545E2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C021A781CA3B0B100545E2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C021A7C1CA3B91100545E2C /* PasswordWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordWindow.h; sourceTree = "<group>"; };
+		0C021A7D1CA3B91100545E2C /* PasswordWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordWindow.m; sourceTree = "<group>"; };
 		0C1B085E1C9FE36A00EC0351 /* UIViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C1B08611C9FE36A00EC0351 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C1B08631C9FE36A00EC0351 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -160,6 +163,8 @@
 				0C021A6B1CA3B0B100545E2C /* AppDelegate.m */,
 				0C021A6D1CA3B0B100545E2C /* ViewController.h */,
 				0C021A6E1CA3B0B100545E2C /* ViewController.m */,
+				0C021A7C1CA3B91100545E2C /* PasswordWindow.h */,
+				0C021A7D1CA3B91100545E2C /* PasswordWindow.m */,
 				0C021A671CA3B0B100545E2C /* Supporting Files */,
 			);
 			path = 04_UIWindow;
@@ -548,6 +553,7 @@
 			files = (
 				0C021A6F1CA3B0B100545E2C /* ViewController.m in Sources */,
 				0C021A6C1CA3B0B100545E2C /* AppDelegate.m in Sources */,
+				0C021A7E1CA3B91100545E2C /* PasswordWindow.m in Sources */,
 				0C021A691CA3B0B100545E2C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
