@@ -10,7 +10,7 @@
 
 @interface ViewController () <UIAlertViewDelegate>
 
-@property (nonatomic, strong) UIWindow *window;
+@property (nonatomic, strong) UIWindow *vcWindow;
 
 @end
 
@@ -20,12 +20,22 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)createWindowButtonPressed:(id)sender {
+    self.vcWindow = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.vcWindow.windowLevel = UIWindowLevelNormal;
+    self.vcWindow.backgroundColor = [UIColor redColor];
+    self.vcWindow.hidden = NO;
+    
+    UIGestureRecognizer *gesture = [[UITapGestureRecognizer alloc] init];
+    [gesture addTarget:self action:@selector(hideWindow:)];
+    [self.vcWindow addGestureRecognizer:gesture];
+}
+
+- (void)hideWindow:(UIGestureRecognizer *)gesture {
+    self.vcWindow.hidden = YES;
+    self.vcWindow = nil;
 }
 
 - (IBAction)sendertestBtnClicked:(UIButton *)sender {
