@@ -40,6 +40,10 @@
 		0C39F4211CA41FD000395A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C39F41F1CA41FD000395A96 /* LaunchScreen.storyboard */; };
 		0C39F4281CA4205500395A96 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C39F4261CA4205500395A96 /* map.png */; };
 		0C39F4291CA4205500395A96 /* q.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C39F4271CA4205500395A96 /* q.jpg */; };
+		0C39F42C1CA4246500395A96 /* UIImage+gif.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C39F42B1CA4246500395A96 /* UIImage+gif.m */; };
+		0C39F42E1CA4255900395A96 /* 萨摩耶@3x.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0C39F42D1CA4255900395A96 /* 萨摩耶@3x.gif */; };
+		0C39F4311CA4257600395A96 /* 萨摩耶.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0C39F42F1CA4257600395A96 /* 萨摩耶.gif */; };
+		0C39F4321CA4257600395A96 /* 萨摩耶@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0C39F4301CA4257600395A96 /* 萨摩耶@2x.gif */; };
 		0C3B23281C994AC700A16096 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B23271C994AC700A16096 /* main.m */; };
 		0C3B232B1C994AC700A16096 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B232A1C994AC700A16096 /* AppDelegate.m */; };
 		0C3B232E1C994AC700A16096 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B232D1C994AC700A16096 /* ViewController.m */; };
@@ -108,6 +112,11 @@
 		0C39F4221CA41FD000395A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C39F4261CA4205500395A96 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
 		0C39F4271CA4205500395A96 /* q.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q.jpg; sourceTree = "<group>"; };
+		0C39F42A1CA4246500395A96 /* UIImage+gif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+gif.h"; sourceTree = "<group>"; };
+		0C39F42B1CA4246500395A96 /* UIImage+gif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+gif.m"; sourceTree = "<group>"; };
+		0C39F42D1CA4255900395A96 /* 萨摩耶@3x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "萨摩耶@3x.gif"; sourceTree = "<group>"; };
+		0C39F42F1CA4257600395A96 /* 萨摩耶.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "萨摩耶.gif"; sourceTree = "<group>"; };
+		0C39F4301CA4257600395A96 /* 萨摩耶@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "萨摩耶@2x.gif"; sourceTree = "<group>"; };
 		0C3B23231C994AC700A16096 /* Demo201603.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo201603.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C3B23271C994AC700A16096 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C3B23291C994AC700A16096 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -290,6 +299,8 @@
 				0C39F4151CA41FD000395A96 /* AppDelegate.m */,
 				0C39F4171CA41FD000395A96 /* ViewController.h */,
 				0C39F4181CA41FD000395A96 /* ViewController.m */,
+				0C39F42A1CA4246500395A96 /* UIImage+gif.h */,
+				0C39F42B1CA4246500395A96 /* UIImage+gif.m */,
 				0C39F41A1CA41FD000395A96 /* Main.storyboard */,
 				0C39F4111CA41FD000395A96 /* Supporting Files */,
 			);
@@ -300,6 +311,9 @@
 			isa = PBXGroup;
 			children = (
 				0C39F4261CA4205500395A96 /* map.png */,
+				0C39F42D1CA4255900395A96 /* 萨摩耶@3x.gif */,
+				0C39F42F1CA4257600395A96 /* 萨摩耶.gif */,
+				0C39F4301CA4257600395A96 /* 萨摩耶@2x.gif */,
 				0C39F4271CA4205500395A96 /* q.jpg */,
 				0C39F41D1CA41FD000395A96 /* Assets.xcassets */,
 				0C39F41F1CA41FD000395A96 /* LaunchScreen.storyboard */,
@@ -609,8 +623,11 @@
 				0C39F4281CA4205500395A96 /* map.png in Resources */,
 				0C39F4291CA4205500395A96 /* q.jpg in Resources */,
 				0C39F4211CA41FD000395A96 /* LaunchScreen.storyboard in Resources */,
+				0C39F4311CA4257600395A96 /* 萨摩耶.gif in Resources */,
 				0C39F41E1CA41FD000395A96 /* Assets.xcassets in Resources */,
+				0C39F42E1CA4255900395A96 /* 萨摩耶@3x.gif in Resources */,
 				0C39F41C1CA41FD000395A96 /* Main.storyboard in Resources */,
+				0C39F4321CA4257600395A96 /* 萨摩耶@2x.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,6 +700,7 @@
 			files = (
 				0C39F4191CA41FD000395A96 /* ViewController.m in Sources */,
 				0C39F4161CA41FD000395A96 /* AppDelegate.m in Sources */,
+				0C39F42C1CA4246500395A96 /* UIImage+gif.m in Sources */,
 				0C39F4131CA41FD000395A96 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

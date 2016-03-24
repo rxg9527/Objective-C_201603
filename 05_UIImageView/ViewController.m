@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIImage+gif.h"
 
 @interface ViewController ()
 
@@ -51,7 +52,16 @@
     //能够自动的适配图片
     //player10.png  player10@2x.png  player10@3x.png
 //    UIImage *image3 = [UIImage imageNamed:@"player10.png"];
-
+    
+    // UIImage实现gif文件播放
+    UIImage *image = [UIImage sd_animatedGIFNamed:@"萨摩耶"];
+    UIImageView *gifImageView = ({
+        UIImageView *view = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, image.size.width, image.size.height)];
+        view.image = image;
+        [self.view addSubview:view];
+        view;
+    });
+    gifImageView.hidden = NO;
 }
 
 @end
