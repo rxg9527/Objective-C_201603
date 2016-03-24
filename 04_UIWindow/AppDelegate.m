@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSLog(@"UIWindowLevelNormal=%f UIWindowLevelStatusBar=%f UIWindowLevelAlert=%f", UIWindowLevelNormal, UIWindowLevelStatusBar, UIWindowLevelAlert);
+
     return YES;
 }
 
