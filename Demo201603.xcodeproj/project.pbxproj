@@ -87,6 +87,18 @@
 		0C39F4E91CA42CD900395A96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C39F4E71CA42CD900395A96 /* Main.storyboard */; };
 		0C39F4EB1CA42CD900395A96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C39F4EA1CA42CD900395A96 /* Assets.xcassets */; };
 		0C39F4EE1CA42CD900395A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C39F4EC1CA42CD900395A96 /* LaunchScreen.storyboard */; };
+		0C39F5161CA42F4E00395A96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C39F5151CA42F4E00395A96 /* main.m */; };
+		0C39F5191CA42F4E00395A96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C39F5181CA42F4E00395A96 /* AppDelegate.m */; };
+		0C39F51C1CA42F4E00395A96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C39F51B1CA42F4E00395A96 /* ViewController.m */; };
+		0C39F51F1CA42F4E00395A96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C39F51D1CA42F4E00395A96 /* Main.storyboard */; };
+		0C39F5211CA42F4E00395A96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C39F5201CA42F4E00395A96 /* Assets.xcassets */; };
+		0C39F5241CA42F4E00395A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C39F5221CA42F4E00395A96 /* LaunchScreen.storyboard */; };
+		0C39F5311CA431B700395A96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C39F5301CA431B700395A96 /* main.m */; };
+		0C39F5341CA431B700395A96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C39F5331CA431B700395A96 /* AppDelegate.m */; };
+		0C39F5371CA431B700395A96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C39F5361CA431B700395A96 /* ViewController.m */; };
+		0C39F53A1CA431B700395A96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C39F5381CA431B700395A96 /* Main.storyboard */; };
+		0C39F53C1CA431B700395A96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C39F53B1CA431B700395A96 /* Assets.xcassets */; };
+		0C39F53F1CA431B700395A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C39F53D1CA431B700395A96 /* LaunchScreen.storyboard */; };
 		0C3B23281C994AC700A16096 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B23271C994AC700A16096 /* main.m */; };
 		0C3B232B1C994AC700A16096 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B232A1C994AC700A16096 /* AppDelegate.m */; };
 		0C3B232E1C994AC700A16096 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B232D1C994AC700A16096 /* ViewController.m */; };
@@ -232,6 +244,27 @@
 		0C39F4EA1CA42CD900395A96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C39F4ED1CA42CD900395A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C39F4EF1CA42CD900395A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C39F4F71CA42F2D00395A96 /* UIScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C39F5121CA42F4E00395A96 /* 13_UIScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 13_UIScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C39F5151CA42F4E00395A96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C39F5171CA42F4E00395A96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C39F5181CA42F4E00395A96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C39F51A1CA42F4E00395A96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C39F51B1CA42F4E00395A96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C39F51E1CA42F4E00395A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C39F5201CA42F4E00395A96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C39F5231CA42F4E00395A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C39F5251CA42F4E00395A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C39F52D1CA431B700395A96 /* 14_UIEdgeInsets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 14_UIEdgeInsets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C39F5301CA431B700395A96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C39F5321CA431B700395A96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C39F5331CA431B700395A96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C39F5351CA431B700395A96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C39F5361CA431B700395A96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C39F5391CA431B700395A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C39F53B1CA431B700395A96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C39F53E1CA431B700395A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C39F5401CA431B700395A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C3B23231C994AC700A16096 /* Demo201603.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo201603.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C3B23271C994AC700A16096 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C3B23291C994AC700A16096 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -333,6 +366,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0C39F4D91CA42CD900395A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C39F4F41CA42F2D00395A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C39F50F1CA42F4E00395A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C39F52A1CA431B700395A96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -657,6 +711,54 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0C39F5131CA42F4E00395A96 /* 13_UIScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0C39F5171CA42F4E00395A96 /* AppDelegate.h */,
+				0C39F5181CA42F4E00395A96 /* AppDelegate.m */,
+				0C39F51A1CA42F4E00395A96 /* ViewController.h */,
+				0C39F51B1CA42F4E00395A96 /* ViewController.m */,
+				0C39F51D1CA42F4E00395A96 /* Main.storyboard */,
+				0C39F5201CA42F4E00395A96 /* Assets.xcassets */,
+				0C39F5221CA42F4E00395A96 /* LaunchScreen.storyboard */,
+				0C39F5251CA42F4E00395A96 /* Info.plist */,
+				0C39F5141CA42F4E00395A96 /* Supporting Files */,
+			);
+			path = 13_UIScreen;
+			sourceTree = "<group>";
+		};
+		0C39F5141CA42F4E00395A96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C39F5151CA42F4E00395A96 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C39F52E1CA431B700395A96 /* 14_UIEdgeInsets */ = {
+			isa = PBXGroup;
+			children = (
+				0C39F5321CA431B700395A96 /* AppDelegate.h */,
+				0C39F5331CA431B700395A96 /* AppDelegate.m */,
+				0C39F5351CA431B700395A96 /* ViewController.h */,
+				0C39F5361CA431B700395A96 /* ViewController.m */,
+				0C39F5381CA431B700395A96 /* Main.storyboard */,
+				0C39F53B1CA431B700395A96 /* Assets.xcassets */,
+				0C39F53D1CA431B700395A96 /* LaunchScreen.storyboard */,
+				0C39F5401CA431B700395A96 /* Info.plist */,
+				0C39F52F1CA431B700395A96 /* Supporting Files */,
+			);
+			path = 14_UIEdgeInsets;
+			sourceTree = "<group>";
+		};
+		0C39F52F1CA431B700395A96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C39F5301CA431B700395A96 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0C3B231A1C994AC700A16096 = {
 			isa = PBXGroup;
 			children = (
@@ -674,6 +776,8 @@
 				0C39F4A71CA42C1200395A96 /* 10_UITableView */,
 				0C39F4C21CA42C2100395A96 /* 11_UICollectionView */,
 				0C39F4DD1CA42CD900395A96 /* 12_UIDevice */,
+				0C39F5131CA42F4E00395A96 /* 13_UIScreen */,
+				0C39F52E1CA431B700395A96 /* 14_UIEdgeInsets */,
 				0C3B23241C994AC700A16096 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -695,6 +799,9 @@
 				0C39F4A61CA42C1200395A96 /* 10_UITableView.app */,
 				0C39F4C11CA42C2100395A96 /* 11_UICollectionView.app */,
 				0C39F4DC1CA42CD900395A96 /* 12_UIDevice.app */,
+				0C39F4F71CA42F2D00395A96 /* UIScreen.app */,
+				0C39F5121CA42F4E00395A96 /* 13_UIScreen.app */,
+				0C39F52D1CA431B700395A96 /* 14_UIEdgeInsets.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -952,6 +1059,57 @@
 			productReference = 0C39F4DC1CA42CD900395A96 /* 12_UIDevice.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0C39F4F61CA42F2D00395A96 /* UIScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C39F50B1CA42F2D00395A96 /* Build configuration list for PBXNativeTarget "UIScreen" */;
+			buildPhases = (
+				0C39F4F31CA42F2D00395A96 /* Sources */,
+				0C39F4F41CA42F2D00395A96 /* Frameworks */,
+				0C39F4F51CA42F2D00395A96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIScreen;
+			productName = UIScreen;
+			productReference = 0C39F4F71CA42F2D00395A96 /* UIScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C39F5111CA42F4E00395A96 /* 13_UIScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C39F5261CA42F4E00395A96 /* Build configuration list for PBXNativeTarget "13_UIScreen" */;
+			buildPhases = (
+				0C39F50E1CA42F4E00395A96 /* Sources */,
+				0C39F50F1CA42F4E00395A96 /* Frameworks */,
+				0C39F5101CA42F4E00395A96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 13_UIScreen;
+			productName = 13_UIScreen;
+			productReference = 0C39F5121CA42F4E00395A96 /* 13_UIScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C39F52C1CA431B700395A96 /* 14_UIEdgeInsets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C39F5411CA431B700395A96 /* Build configuration list for PBXNativeTarget "14_UIEdgeInsets" */;
+			buildPhases = (
+				0C39F5291CA431B700395A96 /* Sources */,
+				0C39F52A1CA431B700395A96 /* Frameworks */,
+				0C39F52B1CA431B700395A96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 14_UIEdgeInsets;
+			productName = 14_UIEdgeInsets;
+			productReference = 0C39F52D1CA431B700395A96 /* 14_UIEdgeInsets.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0C3B23221C994AC700A16096 /* Demo201603 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C3B233A1C994AC700A16096 /* Build configuration list for PBXNativeTarget "Demo201603" */;
@@ -1031,6 +1189,15 @@
 					0C39F4DB1CA42CD900395A96 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
+					0C39F4F61CA42F2D00395A96 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					0C39F5111CA42F4E00395A96 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					0C39F52C1CA431B700395A96 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					0C3B23221C994AC700A16096 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -1066,6 +1233,9 @@
 				0C39F4A51CA42C1200395A96 /* 10_UITableView */,
 				0C39F4C01CA42C2100395A96 /* 11_UICollectionView */,
 				0C39F4DB1CA42CD900395A96 /* 12_UIDevice */,
+				0C39F4F61CA42F2D00395A96 /* UIScreen */,
+				0C39F5111CA42F4E00395A96 /* 13_UIScreen */,
+				0C39F52C1CA431B700395A96 /* 14_UIEdgeInsets */,
 			);
 		};
 /* End PBXProject section */
@@ -1193,6 +1363,33 @@
 				0C39F4EE1CA42CD900395A96 /* LaunchScreen.storyboard in Resources */,
 				0C39F4EB1CA42CD900395A96 /* Assets.xcassets in Resources */,
 				0C39F4E91CA42CD900395A96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C39F4F51CA42F2D00395A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C39F5101CA42F4E00395A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C39F5241CA42F4E00395A96 /* LaunchScreen.storyboard in Resources */,
+				0C39F5211CA42F4E00395A96 /* Assets.xcassets in Resources */,
+				0C39F51F1CA42F4E00395A96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C39F52B1CA431B700395A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C39F53F1CA431B700395A96 /* LaunchScreen.storyboard in Resources */,
+				0C39F53C1CA431B700395A96 /* Assets.xcassets in Resources */,
+				0C39F53A1CA431B700395A96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1338,6 +1535,33 @@
 				0C39F4E61CA42CD900395A96 /* ViewController.m in Sources */,
 				0C39F4E31CA42CD900395A96 /* AppDelegate.m in Sources */,
 				0C39F4E01CA42CD900395A96 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C39F4F31CA42F2D00395A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C39F50E1CA42F4E00395A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C39F51C1CA42F4E00395A96 /* ViewController.m in Sources */,
+				0C39F5191CA42F4E00395A96 /* AppDelegate.m in Sources */,
+				0C39F5161CA42F4E00395A96 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C39F5291CA431B700395A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C39F5371CA431B700395A96 /* ViewController.m in Sources */,
+				0C39F5341CA431B700395A96 /* AppDelegate.m in Sources */,
+				0C39F5311CA431B700395A96 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1552,6 +1776,38 @@
 			isa = PBXVariantGroup;
 			children = (
 				0C39F4ED1CA42CD900395A96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0C39F51D1CA42F4E00395A96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C39F51E1CA42F4E00395A96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C39F5221CA42F4E00395A96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C39F5231CA42F4E00395A96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0C39F5381CA431B700395A96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C39F5391CA431B700395A96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C39F53D1CA431B700395A96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C39F53E1CA431B700395A96 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1843,6 +2099,72 @@
 			};
 			name = Release;
 		};
+		0C39F50C1CA42F2D00395A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yuen.UIScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C39F50D1CA42F2D00395A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yuen.UIScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0C39F5271CA42F4E00395A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 13_UIScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-3-UIScreen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C39F5281CA42F4E00395A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 13_UIScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-3-UIScreen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0C39F5421CA431B700395A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 14_UIEdgeInsets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-4-UIEdgeInsets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C39F5431CA431B700395A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 14_UIEdgeInsets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuen.-4-UIEdgeInsets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0C3B23381C994AC700A16096 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2071,6 +2393,30 @@
 			buildConfigurations = (
 				0C39F4F11CA42CD900395A96 /* Debug */,
 				0C39F4F21CA42CD900395A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0C39F50B1CA42F2D00395A96 /* Build configuration list for PBXNativeTarget "UIScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C39F50C1CA42F2D00395A96 /* Debug */,
+				0C39F50D1CA42F2D00395A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0C39F5261CA42F4E00395A96 /* Build configuration list for PBXNativeTarget "13_UIScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C39F5271CA42F4E00395A96 /* Debug */,
+				0C39F5281CA42F4E00395A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0C39F5411CA431B700395A96 /* Build configuration list for PBXNativeTarget "14_UIEdgeInsets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C39F5421CA431B700395A96 /* Debug */,
+				0C39F5431CA431B700395A96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

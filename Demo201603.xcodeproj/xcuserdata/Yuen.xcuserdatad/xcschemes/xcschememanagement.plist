@@ -49,6 +49,16 @@
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
+		<key>13_UIScreen.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>14_UIEdgeInsets.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
 		<key>CALayer.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -63,6 +73,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>UIScreen.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
 		</dict>
 		<key>UIView.xcscheme</key>
 		<dict>
@@ -133,6 +148,21 @@
 			<true/>
 		</dict>
 		<key>0C39F4DB1CA42CD900395A96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0C39F4F61CA42F2D00395A96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0C39F5111CA42F4E00395A96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0C39F52C1CA431B700395A96</key>
 		<dict>
 			<key>primary</key>
 			<true/>
