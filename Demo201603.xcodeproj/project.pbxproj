@@ -750,10 +750,6 @@
 				0C39F45B1CA42B2900395A96 /* AppDelegate.m */,
 				0C39F45D1CA42B2900395A96 /* ViewController.h */,
 				0C39F45E1CA42B2900395A96 /* ViewController.m */,
-				0C39F4601CA42B2A00395A96 /* Main.storyboard */,
-				0C39F4631CA42B2A00395A96 /* Assets.xcassets */,
-				0C39F4651CA42B2A00395A96 /* LaunchScreen.storyboard */,
-				0C39F4681CA42B2A00395A96 /* Info.plist */,
 				0C39F4571CA42B2900395A96 /* Supporting Files */,
 			);
 			path = 07_UIButton;
@@ -762,6 +758,10 @@
 		0C39F4571CA42B2900395A96 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0C39F4601CA42B2A00395A96 /* Main.storyboard */,
+				0C39F4631CA42B2A00395A96 /* Assets.xcassets */,
+				0C39F4651CA42B2A00395A96 /* LaunchScreen.storyboard */,
+				0C39F4681CA42B2A00395A96 /* Info.plist */,
 				0C39F4581CA42B2900395A96 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -3418,6 +3418,7 @@
 				0C6143111CAC328E0063B7C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CCFED041CAA321C0088E313 /* Build configuration list for PBXNativeTarget "多线程02_NSThread" */ = {
 			isa = XCConfigurationList;
