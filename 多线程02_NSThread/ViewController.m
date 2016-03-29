@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "XGThread.h"
 
 @interface ViewController ()
 
@@ -20,10 +21,17 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    /*
+     1、 简单使用NSThread
     // 创建线程
     NSThread *thread = [[NSThread alloc] initWithTarget:self selector:@selector(run:) object:@"Yuen"];
     // 启动线程
     [thread start];
+     */
+    
+    /*2、 验证XGThread生命周期*/
+    XGThread *thread = [[XGThread alloc] initWithTarget:self selector:@selector(run:) object:@"XG"];
+    [thread start]; 
 }
 
 - (void)run:(NSString *)parameter {

@@ -115,6 +115,7 @@
 		0CCFECFB1CAA321C0088E313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CCFECF91CAA321C0088E313 /* Main.storyboard */; };
 		0CCFECFD1CAA321C0088E313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CCFECFC1CAA321C0088E313 /* Assets.xcassets */; };
 		0CCFED001CAA321C0088E313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CCFECFE1CAA321C0088E313 /* LaunchScreen.storyboard */; };
+		0CCFED071CAA343D0088E313 /* XGThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCFED061CAA343D0088E313 /* XGThread.m */; };
 		0CD861431CAA2DDF00D1FE5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD861421CAA2DDF00D1FE5C /* main.m */; };
 		0CD861461CAA2DDF00D1FE5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD861451CAA2DDF00D1FE5C /* AppDelegate.m */; };
 		0CD861491CAA2DDF00D1FE5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD861481CAA2DDF00D1FE5C /* ViewController.m */; };
@@ -305,6 +306,8 @@
 		0CCFECFC1CAA321C0088E313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CCFECFF1CAA321C0088E313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CCFED011CAA321C0088E313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CCFED051CAA343D0088E313 /* XGThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGThread.h; sourceTree = "<group>"; };
+		0CCFED061CAA343D0088E313 /* XGThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGThread.m; sourceTree = "<group>"; };
 		0CD8613F1CAA2DDF00D1FE5C /* 多线程01_pthread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "多线程01_pthread.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD861421CAA2DDF00D1FE5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CD861441CAA2DDF00D1FE5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -909,6 +912,8 @@
 				0CCFECF41CAA321C0088E313 /* AppDelegate.m */,
 				0CCFECF61CAA321C0088E313 /* ViewController.h */,
 				0CCFECF71CAA321C0088E313 /* ViewController.m */,
+				0CCFED051CAA343D0088E313 /* XGThread.h */,
+				0CCFED061CAA343D0088E313 /* XGThread.m */,
 				0CCFECF91CAA321C0088E313 /* Main.storyboard */,
 				0CCFECFC1CAA321C0088E313 /* Assets.xcassets */,
 				0CCFECFE1CAA321C0088E313 /* LaunchScreen.storyboard */,
@@ -1749,6 +1754,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CCFED071CAA343D0088E313 /* XGThread.m in Sources */,
 				0CCFECF81CAA321C0088E313 /* ViewController.m in Sources */,
 				0CCFECF51CAA321C0088E313 /* AppDelegate.m in Sources */,
 				0CCFECF21CAA321C0088E313 /* main.m in Sources */,
