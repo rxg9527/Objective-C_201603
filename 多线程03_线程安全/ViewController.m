@@ -57,14 +57,20 @@
 
      */
     while (1) {
-        // 先取出总数
-        NSInteger count = self.ticketCount;
-        if (count > 0) {
-            self.ticketCount = count - 1;
-            NSLog(@"%@卖了一张票，还剩下%zd张", [NSThread currentThread].name, self.ticketCount);
-        } else {
-            NSLog(@"票已经卖完了");
-            break;
+        /**
+         *  @synchronized(锁对象) { // 需要锁定的代码  }
+            所对象应为同一个，因为这样才意味着是使用的同一把线程锁
+         */
+        @synchronized(self) {
+            // 先取出总数
+            NSInteger count = self.ticketCount;
+            if (count > 0) {
+                self.ticketCount = count - 1;
+                NSLog(@"%@卖了一张票，还剩下%zd张", [NSThread currentThread].name, self.ticketCount);
+            } else {
+                NSLog(@"票已经卖完了");
+                break;
+            }
         }
     }
 }
