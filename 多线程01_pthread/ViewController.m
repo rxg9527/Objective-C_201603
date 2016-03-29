@@ -19,9 +19,12 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)btnClicked:(id)sender {
+    // 输出结果如下，并且此时textView无法滑动（主线程被阻塞）
+    // 99999---<NSThread: 0x7f90e0405e70>{number = 1, name = main}---<NSThread: 0x7f90e0405e70>{number = 1, name = main}
+    for (NSUInteger i = 0; i < 100000; i++) {
+        NSLog(@"%zd---%@---%@", i, [NSThread mainThread], [NSThread currentThread]);
+    }
 }
 
 @end
