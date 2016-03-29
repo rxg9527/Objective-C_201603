@@ -21,11 +21,12 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [self createThread1];
+    [self createThread2];
 }
 
 - (void)createThread2 {
-    
+    // 无法命名线程
+    [NSThread detachNewThreadSelector:@selector(run:) toTarget:self withObject:@"Yuen"];
 }
 
 - (void)createThread1 {
