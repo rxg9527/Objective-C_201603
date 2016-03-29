@@ -94,6 +94,11 @@
 			<key>orderHint</key>
 			<integer>14</integer>
 		</dict>
+		<key>多线程02_NSThread.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -178,6 +183,11 @@
 			<true/>
 		</dict>
 		<key>0C3B23401C994B9800A16096</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0CCFECED1CAA321C0088E313</key>
 		<dict>
 			<key>primary</key>
 			<true/>
