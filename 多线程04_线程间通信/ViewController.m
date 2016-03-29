@@ -22,7 +22,23 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [self download2];
+    [self download3];
+}
+
+- (void)download3 {
+    // 图片的网络路径
+    NSURL *url = [NSURL URLWithString:@"http://map.onegreen.net/%E4%B8%AD%E5%9B%BD%E6%94%BF%E5%8C%BA2500.jpg"];
+    // 根据图片的网络路径去下载图片数据
+    NSData *data = [NSData dataWithContentsOfURL:url];
+    // 生成图片
+    UIImage *image = [UIImage imageWithData:data];
+    
+    // 回到主线程，显示图片
+    [self performSelectorOnMainThread:@selector(showImage:) withObject:image waitUntilDone:YES];
+}
+
+- (void)showImage:(UIImage *)image {
+    self.imageView.image = image;
 }
 
 - (void)download2 {
