@@ -24,8 +24,14 @@
     [self createThread2];
 }
 
+- (void)createThread3 {
+    // 隐式创建并启动线程
+    [self performSelectorInBackground:@selector(run:) withObject:@""];
+}
+
 - (void)createThread2 {
     // 无法命名线程
+    // 创建线程后自动启动线程
     [NSThread detachNewThreadSelector:@selector(run:) toTarget:self withObject:@"Yuen"];
 }
 
