@@ -20,6 +20,7 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self asyncConcurrent];
 }
 
 /**
@@ -27,7 +28,10 @@
  */
 - (void)asyncConcurrent {
     // 1 创建一个并行队列
-    dispatch_queue_t queue = dispatch_queue_create("com.Yuen.queue1", DISPATCH_QUEUE_CONCURRENT);
+//    dispatch_queue_t queue = dispatch_queue_create("com.Yuen.queue1", DISPATCH_QUEUE_CONCURRENT);
+    
+    // 1 获得全局的并发队列
+    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
     
     // 2 将任务加入队列
     dispatch_async(queue, ^{
