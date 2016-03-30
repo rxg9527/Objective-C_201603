@@ -69,6 +69,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>GCD01_基本使用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
 		<key>NSDate_Week&amp;Lunar.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -198,6 +203,11 @@
 			<true/>
 		</dict>
 		<key>0C61428C1CAAD8B40063B7C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0C6142A71CAC09D00063B7C3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
