@@ -23,6 +23,15 @@
     
     self.person = [Person new];
     
+    // KVO底层实现:
+    // 1.动态创建NSKVONotifying_Person,NSKVONotifying_Person是Person子类,做KVO
+    // 2.修改当前对象的isa指针->NSKVONotifying_Person
+    // 3.只要调用对象的set,就会调用NSKVONotifying_Person的set方法
+    // 4.重写NSKVONotifying_Person的set方法：1.[super set:] 2.通知观察者,告诉你属性改变
+    /**
+     *  在『[self.person addObserver:self forKeyPath:@"age" options:NSKeyValueObservingOptionNew context:nil];』代码上打断点，会发现
+     *  self->_person->isa的值由Person变为NSKVONotifying_Person
+     */
     [self.person addObserver:self forKeyPath:@"age" options:NSKeyValueObservingOptionNew context:nil];
 }
 
