@@ -20,11 +20,49 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [self syncConcurrent];
+    [self asyncSerial];
+}
+
+/**
+ *  异步函数 + 串行队列： 会开启新的线程，但是任务是串行的，执行完一个任务再执行下一个任务
+    异步：可以在新的线程中执行任务，具备开启新线程的能力
+    串行：一个任务执行完毕后，再执行下一个任务
+ */
+- (void)asyncSerial {
+    /**
+     *  输出结果
+     2016-03-30 21:46:33.023 GCD01_基本使用[19591:6772655] 1_<NSThread: 0x7f89462011f0>{number = 3, name = (null)}
+     2016-03-30 21:46:33.023 GCD01_基本使用[19591:6772655] 1_<NSThread: 0x7f89462011f0>{number = 3, name = (null)}
+     2016-03-30 21:46:33.023 GCD01_基本使用[19591:6772655] 2_<NSThread: 0x7f89462011f0>{number = 3, name = (null)}
+     2016-03-30 21:46:33.023 GCD01_基本使用[19591:6772655] 2_<NSThread: 0x7f89462011f0>{number = 3, name = (null)}
+     2016-03-30 21:46:33.023 GCD01_基本使用[19591:6772655] 3_<NSThread: 0x7f89462011f0>{number = 3, name = (null)}
+     2016-03-30 21:46:33.023 GCD01_基本使用[19591:6772655] 3_<NSThread: 0x7f89462011f0>{number = 3, name = (null)}
+     */
+    // 1 创建一个串行队列
+    dispatch_queue_t queue = dispatch_queue_create("com.Yuen.queue_serial", DISPATCH_QUEUE_SERIAL);
+    
+    // 2 将任务加入队列
+    dispatch_async(queue, ^{
+        for (NSUInteger i = 0; i < 2; i++) {
+            NSLog(@"1_%@", [NSThread currentThread]);
+        }
+    });
+    dispatch_async(queue, ^{
+        for (NSUInteger i = 0; i < 2; i++) {
+            NSLog(@"2_%@", [NSThread currentThread]);
+        }
+    });
+    dispatch_async(queue, ^{
+        for (NSUInteger i = 0; i < 2; i++) {
+            NSLog(@"3_%@", [NSThread currentThread]);
+        }
+    });
 }
 
 /**
  *  同步函数 + 并发队列： 不会开启新的线程
+    同步：只能在当前线程中执行任务，不具备开启新线程的能力
+    并发：可以让多个任务并发（同时）执行（自动开启多个线程同时执行任务）
  */
 - (void)syncConcurrent {
     /**
