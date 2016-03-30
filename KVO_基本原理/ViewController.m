@@ -36,7 +36,11 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    self.person.age++;
+//    self.person.age++;
+    /**
+     *  不调用set方法，无法触发KVO
+     */
+    self.person->_age++;
 }
 
 // 监听的属性只要一改变就调用

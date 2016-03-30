@@ -8,7 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Person : NSThread
+@interface Person : NSObject {
+    @public
+    NSUInteger _age;
+}
 
 @property (nonatomic, assign) NSUInteger age;
 
