@@ -20,7 +20,74 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [self syncSerial];
+    [self syncMain];
+}
+
+/**
+ * 同步函数 + 主队列： 程序假死
+ */
+- (void)syncMain
+{
+    /**
+     *  输出结果：
+     2016-03-30 22:09:33.263 GCD01_基本使用[20036:6800170] -[ViewController syncMain]
+     */
+    // 1.获得主队列
+    dispatch_queue_t queue = dispatch_get_main_queue();
+    
+    NSLog(@"%s", __func__);
+    // 2.将任务加入队列
+    dispatch_sync(queue, ^{
+        for (NSUInteger i = 0; i < 2; i++) {
+            NSLog(@"1_%@", [NSThread currentThread]);
+        }
+    });
+    dispatch_sync(queue, ^{
+        for (NSUInteger i = 0; i < 2; i++) {
+            NSLog(@"2_%@", [NSThread currentThread]);
+        }
+    });
+    dispatch_sync(queue, ^{
+        for (NSUInteger i = 0; i < 2; i++) {
+            NSLog(@"3_%@", [NSThread currentThread]);
+        }
+    });
+    NSLog(@"%s", __func__);
+}
+
+/**
+ * 异步函数 + 主队列：只在主线程中执行任务
+ */
+- (void)asyncMain
+{
+    /**
+     *  输出结果：
+     2016-03-30 22:07:43.380 GCD01_基本使用[19983:6797598] 1_<NSThread: 0x7fc7ab903890>{number = 1, name = main}
+     2016-03-30 22:07:43.380 GCD01_基本使用[19983:6797598] 1_<NSThread: 0x7fc7ab903890>{number = 1, name = main}
+     2016-03-30 22:07:43.380 GCD01_基本使用[19983:6797598] 2_<NSThread: 0x7fc7ab903890>{number = 1, name = main}
+     2016-03-30 22:07:43.381 GCD01_基本使用[19983:6797598] 2_<NSThread: 0x7fc7ab903890>{number = 1, name = main}
+     2016-03-30 22:07:43.381 GCD01_基本使用[19983:6797598] 3_<NSThread: 0x7fc7ab903890>{number = 1, name = main}
+     2016-03-30 22:07:43.381 GCD01_基本使用[19983:6797598] 3_<NSThread: 0x7fc7ab903890>{number = 1, name = main}
+     */
+    // 1.获得主队列
+    dispatch_queue_t queue = dispatch_get_main_queue();
+    
+    // 2.将任务加入队列
+    dispatch_async(queue, ^{
+        for (NSUInteger i = 0; i < 2; i++) {
+            NSLog(@"1_%@", [NSThread currentThread]);
+        }
+    });
+    dispatch_async(queue, ^{
+        for (NSUInteger i = 0; i < 2; i++) {
+            NSLog(@"2_%@", [NSThread currentThread]);
+        }
+    });
+    dispatch_async(queue, ^{
+        for (NSUInteger i = 0; i < 2; i++) {
+            NSLog(@"3_%@", [NSThread currentThread]);
+        }
+    });
 }
 
 /**
