@@ -74,6 +74,11 @@
 			<key>orderHint</key>
 			<integer>18</integer>
 		</dict>
+		<key>KVO_基本原理.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
 		<key>NSDate_Week&amp;Lunar.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -208,6 +213,11 @@
 			<true/>
 		</dict>
 		<key>0C6142A71CAC09D00063B7C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0C6142C21CAC2CF90063B7C3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
