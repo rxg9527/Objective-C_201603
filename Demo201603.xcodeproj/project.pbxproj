@@ -127,6 +127,7 @@
 		0C6142D01CAC2CF90063B7C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6142CE1CAC2CF90063B7C3 /* Main.storyboard */; };
 		0C6142D21CAC2CF90063B7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C6142D11CAC2CF90063B7C3 /* Assets.xcassets */; };
 		0C6142D51CAC2CFA0063B7C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6142D31CAC2CF90063B7C3 /* LaunchScreen.storyboard */; };
+		0C6142DC1CAC2D610063B7C3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6142DB1CAC2D610063B7C3 /* Person.m */; };
 		0CCFECF21CAA321C0088E313 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCFECF11CAA321C0088E313 /* main.m */; };
 		0CCFECF51CAA321C0088E313 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCFECF41CAA321C0088E313 /* AppDelegate.m */; };
 		0CCFECF81CAA321C0088E313 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCFECF71CAA321C0088E313 /* ViewController.m */; };
@@ -350,6 +351,8 @@
 		0C6142D11CAC2CF90063B7C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C6142D41CAC2CFA0063B7C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C6142D61CAC2CFA0063B7C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C6142DA1CAC2D610063B7C3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0C6142DB1CAC2D610063B7C3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		0CCFECEE1CAA321C0088E313 /* 多线程02_NSThread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "多线程02_NSThread.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CCFECF11CAA321C0088E313 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CCFECF31CAA321C0088E313 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1060,6 +1063,8 @@
 				0C6142C91CAC2CF90063B7C3 /* AppDelegate.m */,
 				0C6142CB1CAC2CF90063B7C3 /* ViewController.h */,
 				0C6142CC1CAC2CF90063B7C3 /* ViewController.m */,
+				0C6142DA1CAC2D610063B7C3 /* Person.h */,
+				0C6142DB1CAC2D610063B7C3 /* Person.m */,
 				0C6142C51CAC2CF90063B7C3 /* Supporting Files */,
 			);
 			path = "KVO_基本原理";
@@ -2096,6 +2101,7 @@
 			files = (
 				0C6142CD1CAC2CF90063B7C3 /* ViewController.m in Sources */,
 				0C6142CA1CAC2CF90063B7C3 /* AppDelegate.m in Sources */,
+				0C6142DC1CAC2D610063B7C3 /* Person.m in Sources */,
 				0C6142C71CAC2CF90063B7C3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
