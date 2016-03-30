@@ -20,7 +20,41 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [self asyncConcurrent];
+    [self syncConcurrent];
+}
+
+/**
+ *  同步函数 + 并发队列： 不会开启新的线程
+ */
+- (void)syncConcurrent {
+    /**
+     *  输出结果
+     2016-03-30 21:39:18.124 GCD01_基本使用[19329:6760814] 1_<NSThread: 0x7fb1eb404090>{number = 1, name = main}
+     2016-03-30 21:39:18.124 GCD01_基本使用[19329:6760814] 1_<NSThread: 0x7fb1eb404090>{number = 1, name = main}
+     2016-03-30 21:39:18.124 GCD01_基本使用[19329:6760814] 2_<NSThread: 0x7fb1eb404090>{number = 1, name = main}
+     2016-03-30 21:39:18.124 GCD01_基本使用[19329:6760814] 2_<NSThread: 0x7fb1eb404090>{number = 1, name = main}
+     2016-03-30 21:39:18.124 GCD01_基本使用[19329:6760814] 3_<NSThread: 0x7fb1eb404090>{number = 1, name = main}
+     2016-03-30 21:39:18.124 GCD01_基本使用[19329:6760814] 3_<NSThread: 0x7fb1eb404090>{number = 1, name = main}
+     */
+    // 1 获得全局的并发队列
+    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    
+    // 2 将任务加入队列
+    dispatch_sync(queue, ^{
+        for (NSUInteger i = 0; i < 2; i++) {
+            NSLog(@"1_%@", [NSThread currentThread]);
+        }
+    });
+    dispatch_sync(queue, ^{
+        for (NSUInteger i = 0; i < 2; i++) {
+            NSLog(@"2_%@", [NSThread currentThread]);
+        }
+    });
+    dispatch_sync(queue, ^{
+        for (NSUInteger i = 0; i < 2; i++) {
+            NSLog(@"3_%@", [NSThread currentThread]);
+        }
+    });
 }
 
 /**
