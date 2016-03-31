@@ -134,6 +134,9 @@
 		0C6143091CAC328E0063B7C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6143071CAC328E0063B7C3 /* Main.storyboard */; };
 		0C61430B1CAC328E0063B7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C61430A1CAC328E0063B7C3 /* Assets.xcassets */; };
 		0C61430E1CAC328E0063B7C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C61430C1CAC328E0063B7C3 /* LaunchScreen.storyboard */; };
+		0C6143151CAC32E10063B7C3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6143141CAC32E10063B7C3 /* Person.m */; };
+		0C6143181CAC33460063B7C3 /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6143171CAC33460063B7C3 /* NSObject+KVO.m */; };
+		0C61431B1CAD6B830063B7C3 /* XGKVONotifying_Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C61431A1CAD6B830063B7C3 /* XGKVONotifying_Person.m */; };
 		0CCFECF21CAA321C0088E313 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCFECF11CAA321C0088E313 /* main.m */; };
 		0CCFECF51CAA321C0088E313 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCFECF41CAA321C0088E313 /* AppDelegate.m */; };
 		0CCFECF81CAA321C0088E313 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCFECF71CAA321C0088E313 /* ViewController.m */; };
@@ -369,6 +372,12 @@
 		0C61430A1CAC328E0063B7C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C61430D1CAC328E0063B7C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C61430F1CAC328E0063B7C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C6143131CAC32E10063B7C3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0C6143141CAC32E10063B7C3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0C6143161CAC33460063B7C3 /* NSObject+KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		0C6143171CAC33460063B7C3 /* NSObject+KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
+		0C6143191CAD6B830063B7C3 /* XGKVONotifying_Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGKVONotifying_Person.h; sourceTree = "<group>"; };
+		0C61431A1CAD6B830063B7C3 /* XGKVONotifying_Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGKVONotifying_Person.m; sourceTree = "<group>"; };
 		0CCFECEE1CAA321C0088E313 /* 多线程02_NSThread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "多线程02_NSThread.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CCFECF11CAA321C0088E313 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CCFECF31CAA321C0088E313 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1114,6 +1123,12 @@
 				0C6143021CAC328E0063B7C3 /* AppDelegate.m */,
 				0C6143041CAC328E0063B7C3 /* ViewController.h */,
 				0C6143051CAC328E0063B7C3 /* ViewController.m */,
+				0C6143131CAC32E10063B7C3 /* Person.h */,
+				0C6143141CAC32E10063B7C3 /* Person.m */,
+				0C6143161CAC33460063B7C3 /* NSObject+KVO.h */,
+				0C6143171CAC33460063B7C3 /* NSObject+KVO.m */,
+				0C6143191CAD6B830063B7C3 /* XGKVONotifying_Person.h */,
+				0C61431A1CAD6B830063B7C3 /* XGKVONotifying_Person.m */,
 				0C6142FE1CAC328E0063B7C3 /* Supporting Files */,
 			);
 			path = "KVO_手动实现";
@@ -2190,8 +2205,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C61431B1CAD6B830063B7C3 /* XGKVONotifying_Person.m in Sources */,
 				0C6143061CAC328E0063B7C3 /* ViewController.m in Sources */,
 				0C6143031CAC328E0063B7C3 /* AppDelegate.m in Sources */,
+				0C6143181CAC33460063B7C3 /* NSObject+KVO.m in Sources */,
+				0C6143151CAC32E10063B7C3 /* Person.m in Sources */,
 				0C6143001CAC328E0063B7C3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
